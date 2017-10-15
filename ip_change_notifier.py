@@ -2,6 +2,11 @@
 Version 1.0.0
 Notify for change in public ip.
 Last updated on 14 Oct 2017.
+
+TO DO:
+- Notification mail sent verification
+- Maintain status file for last_ip
+
 """
 import smtplib
 import socket
