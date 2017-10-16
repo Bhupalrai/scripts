@@ -6,6 +6,9 @@ Last updated on 14 Oct 2017.
 TO DO:
 - Notification mail sent verification
 - Maintain status file for last_ip
+	- Resolves issue due to server reboot
+- Handle exception, do not exit after error
+	- Run as daemon
 
 """
 import smtplib
